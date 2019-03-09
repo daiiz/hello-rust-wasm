@@ -24,3 +24,8 @@ pub fn greet(name: &str) {
 pub fn gcd(a: i32, b: i32) -> i32 {
     calc_gcd(a, b)
 }
+
+#[wasm_bindgen]
+pub fn sum(a: i32, b: i32) -> i32 {
+    a + b
+}
