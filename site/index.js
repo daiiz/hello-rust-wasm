@@ -2,11 +2,6 @@ const jsPromise = import("../pkg/hello_rust_wasm.js");
 
 window.logger = str => { console.log(">", str) }
 
-// jsPromise.then(js => {
-//   js.greet("WebAssembly");
-//   console.log(js.gcd(3 * 17 * 23, 3 * 19 * 23));
-// });
-
 const main = async () => {
   window.rs = await jsPromise
 
