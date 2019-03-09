@@ -29,6 +29,7 @@ https://www.npmjs.com/package/@daiiz/hello-rust-wasm
 ```
 $ cd site
 $ npm install
+$ npm install --save @daiiz/hello-rust-wasm
 $ npm run serve
 ```
 http://localhost:8080
