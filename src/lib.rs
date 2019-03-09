@@ -8,11 +8,11 @@ use wasm_bindgen::prelude::*;
 // The attribute says "wasm-bindgen knows how to find these functions".
 #[wasm_bindgen]
 extern {
-    pub fn alert(s: &str);
+    pub fn logger(s: &str);
 }
 
 // Producing Rust functions that JavaScript can call
 #[wasm_bindgen]
 pub fn greet(name: &str) {
-    alert(&format!("Hello, {}", name));
+    logger(&format!("Hello, {}", name));
 }

@@ -3,7 +3,6 @@
     "serve": "webpack-dev-server"
   },
   "dependencies": {
-    "@daiiz/hello-rust-wasm": "^0.1.0"
   },
   "devDependencies": {
     "webpack": "4.29.6",

@@ -11,15 +11,23 @@ $ cargo new --lib hello-rust-wasm
 $ wasm-pack build --scope daiiz
 ```
 
-## Publishing the package to npm
+## Run web app
+```
+$ cd site
+$ npm run serve
+```
+
+## Optional steps
+### Publishing the package to npm
 ```
 $ cd pkg
 $ npm publish --access=public
 ```
 https://www.npmjs.com/package/@daiiz/hello-rust-wasm
 
-## Run web app
+### Run web app
 ```
+$ cd site
 $ npm install
 $ npm run serve
 ```
