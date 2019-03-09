@@ -16,3 +16,8 @@ extern {
 pub fn greet(name: &str) {
     logger(&format!("Hello, {}", name));
 }
+
+#[wasm_bindgen]
+pub fn sum(a: i32, b: i32) -> i32 {
+    a + b
+}
