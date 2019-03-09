@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "serve": "webpack-dev-server"
+  },
+  "dependencies": {
+    "@daiiz/hello-rust-wasm": "^0.1.0"
+  },
+  "devDependencies": {
+    "webpack": "4.29.6",
+    "webpack-cli": "3.2.2",
+    "webpack-dev-server": "3.2.1"
+  }
+}

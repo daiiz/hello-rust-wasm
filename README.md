@@ -17,3 +17,10 @@ $ cd pkg
 $ npm publish --access=public
 ```
 https://www.npmjs.com/package/@daiiz/hello-rust-wasm
+
+## Run web app
+```
+$ npm install
+$ npm run serve
+```
+http://localhost:8080
