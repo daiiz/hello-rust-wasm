@@ -2,7 +2,10 @@
 // or a Rust function to catch a JavaScript exception.
 extern crate wasm_bindgen;
 
+mod math;
+
 use wasm_bindgen::prelude::*;
+use math::*;
 
 // Calling external functions in JavaScript from Rust
 // The attribute says "wasm-bindgen knows how to find these functions".
@@ -18,6 +21,6 @@ pub fn greet(name: &str) {
 }
 
 #[wasm_bindgen]
-pub fn sum(a: i32, b: i32) -> i32 {
-    a + b
+pub fn gcd(a: i32, b: i32) -> i32 {
+    calc_gcd(a, b)
 }
